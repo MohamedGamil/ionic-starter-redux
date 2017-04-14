@@ -1,29 +1,33 @@
-# README #
+# Ionic 3 + ngrx\store + redux
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Ionic Starter using ionic 3, ionic cli 3, ionic native 3, ngrx\store, ngrx\effects, store-devtools, reselect, ngrx-store-logger, redux dev tool 
 
-### What is this repository for? ###
+## Getting Started
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+```
+npm install
+ionic serve
+```
 
-### How do I get set up? ###
+### Layers
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* UI Layer 
+put here all angular component ( container and presentation components )
 
-### Contribution guidelines ###
+* Facade Layer
+expose all API to comunicate UI Layer to STORE and SERVICE Layer
 
-* Writing tests
-* Code review
-* Other guidelines
+* STORE and SERVICE Layer
+reducers, actions, effects, selectors, middleware, services  
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+## Version
+```0.1```
+
+## Authors
+
+* **Javier González Rodríguez** - [javico2609](https://github.com/javico2609)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
